@@ -1,0 +1,16 @@
+.heading_1 {
+  background-color: rgb(199, 181, 181);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 80px;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: 'Trebuchet MS';
+
+}
+
+p{
+    line-height: 50px;
+}

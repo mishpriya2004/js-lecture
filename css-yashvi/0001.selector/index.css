@@ -1,0 +1,66 @@
+/* *{
+    color: red;
+} */
+
+.heading{
+    color: blue;
+}
+
+.headingUnderline{
+    text-decoration: underline;
+}
+
+p{
+    color: green;
+    font-size: 30px;
+}
+
+h1,h2,h3,p{
+    text-transform: uppercase;
+}
+
+#heading_id{
+    color: aqua;
+}
+
+.ul_list > li {
+color: red;
+}
+
+input[type="number"]{
+    border-color: red;
+}
+
+a[target="_blank"]{
+    background: red;
+    color: yellow;
+}
+
+.flipcart_link:hover{
+    color: red;
+    background: yellow;
+}
+
+
+.name_input:focus{
+    outline-color:red ;
+}
+
+
+.container_div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    
+}
+.border_div{
+    border: 10px solid black;
+}
+
+li:nth-child(2){
+    color: red;
+}
+
+.container_nth:nth-child(1){
+    color: blue !important;
+}
