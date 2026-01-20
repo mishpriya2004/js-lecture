@@ -6,14 +6,58 @@
   background-color: red;
   /* display: inline; */
   /* display: none; */
-
-
 }
 
-
-.shadow_div{
+.shadow_div {
   height: 100px;
   width: 100px;
   box-shadow: 10px 10px 10px red;
   border: 1px solid black;
 }
+
+.position_div {
+  height: 200px;
+  width: 100px;
+  background-color: green;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  margin-bottom: 100px;
+}
+
+.position_div_parent {
+  height: 200px;
+  background: yellow;
+  position: relative;
+}
+
+.child_1,
+.child_2 {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.child_1{
+  background-color: green;
+  z-index: 3;
+  position: relative;
+}
+
+.child_2 {
+  top: 20px;
+  background-color: red;
+left: 30px;
+  position: absolute;
+}
+
+
+.fixed_div{
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  position: fixed;
+  top: 10px;
+  left: 100px;
+}
+
