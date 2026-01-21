@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.containere_1 {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANIAAADwCAMAAABCI8pNAAAAt1BMVEX39/cAAAD/5skyRsf/////79H7+/u/v78zSMvn5+cvKiUnNpo8Ni8hL4Tc3NwqO6ljY2PYw6r/6800SdDt7e0MEC8UHFAnJyckM5H33sJ8fHwcJ3BsYVWcnJxNRT23pZC0tLQMM8fOzs7JtZ5xcXHn0LZ9cWKrmoeVlZVcXFympqb/+dpCOzQ3MixkWk50aFsABxFubGqBgXtASpQAFWwvQrsAACAACS8AE1AuJhzFxMQWH1k/Pz9X7QVKAAADDElEQVR4nO3d23LaMBRAUYeCgRRCAm6puYSUQBouhTa9Ju3/f1efio6Y0RTGOhKme7/GRlrwEA1YdpIQERHRaVVVL7joQrtFaJM+6RoSJEiQIEGCVH6SXIEFIAVY72WLa5M6qS8G0/rE0qY6wxkkSJAgQYIEqTSkVCy0sogkf+u99GpseoxHWoppZAVJ9XgMV80UEqQIQYIUJUiQogQJUpQgQYoSJEhRggQpSpDKQMqqqakgab2qBWx+CK9+vMkitWqVcHVvIEGCBAkSJEjnS+qKdUzXNUe52Dl5Uvdhffu39cRhylu7Y25b+bGkfL4r/xiAVNuIgz64SNYMjyWJkWstSJAgQYIECRKkkyN17yemG9ccxTGTf4sikypdkXuOhxx0MiSNIEGCBAkSJEgBSSuz8qiF+NJLp/n2wXQvehrsmk1LRbK+npWfWCY2/hT9RT0wSSZJPq97gAQJEiRIkCB5J71c9HfdVnKTPkMMln8ysyhKcm/o1gbZK/FqsXWdU9eMSPLHgAQJEiRIkCBFIqnvuQhBSpLMlFwq9/zZGi5A53L7TEiQIEGCBAmSruP87lQ9Mz/8Pr3W7ov4mXkQZCXeUK7XkaMFIb1SrgEJEiRIkCD9FyRx5xX7h035n96fw7l6KHQHGFvUvDMtvw5N70TffIk64kXbYrBhXUzD552qv/fEmyjfw46nz6nRFi/61ozWs0bzed3Dm54ZPQRJ/AUSJEiQIEGCBAkSJEiQIEGCBAnSSZB+vBepk366RtPa7GNt3lUhjeTWovMgbSBBggQJEiRIpSc9i0d3rNRJI/mgEI+kJJuaXjajXVt10uXWjDYSs5gWAyXWVQLOx1mrkKw8XiRg4ZwPHQ9A8uiABAkSJEiQykcSV7UV2pQQmpRkj+NdSzngsO2pX+JFfy/NaGO1rTHnt9nH0gUghXBAggQJEiRIkCBBggQJEiRIkCBBgnQcaVB11C8taeaYFaRAQdo7GVKYIO2dDClMkPZOLi/JNauDTl6EJqVXB+S6vrHQyXqlh6RyMhERUfn6A+y8O9lMVbVBAAAAAElFTkSuQmCC");
+  /* min-height: 200px; */
+  height: 300px;
+  width: 300px;
+  background-color: lightcoral;
+  background-repeat: no-repeat;
+  margin: 100px;
+  background-size: contain;
+}
+
+.containere_2 {
+  height: 200px;
+  width: 200px;
+  /* background: linear-gradient(to right, rgb(202, 93, 93) ,rgb(133, 216, 133)) */
+  background: linear-gradient(to right, red, green, yellow);
+  /* background: #2a7b9b;
+
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 41%,
+    rgba(237, 221, 83, 1) 100%
+  ); */
+}
+
+.containere_2:hover {
+  background: red;
+}
+
+.click_me_btn {
+  color: black;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 1px solid black;
+  background: white;
+  font-weight: 900;
+  cursor: pointer;
+  transition: background-color 1s ease, transform 1s ease-in-out;
+}
+
+
+.click_me_btn:hover{
+  background-color: black;
+  color: white;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+  
+}
