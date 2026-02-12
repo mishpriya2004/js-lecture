@@ -44,6 +44,7 @@ console.log("----d---->",d)
 
 
 let z2 = 5
+let c = z2++
 // z2++
 // z2--
 z2**
