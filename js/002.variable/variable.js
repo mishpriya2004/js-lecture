@@ -4,8 +4,8 @@
 
 /*
 redeclier = create 2 variable with same name
-reassign = we can change the value 
-intial value required = intial value compulsory 
+reassign = we can change the value
+intial value required = intial value compulsory
 
 */
 
