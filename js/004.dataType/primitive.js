@@ -24,9 +24,9 @@ let d = `
 Hello, 
      I had recieved your mail.
 
-                    Your faith fully
-                    (Urvish)
-    
+               Your faith fully
+               (Urvish)
+
 
 `
 console.log("🚀 ~ d:", d)
@@ -38,7 +38,6 @@ console.log("🚀 ~ d:", d)
 // let n1 = 15 // integer
 // let n1 = 15.15 // flot
 // let n1 = -15
-
 
 // console.log("🚀 ~ n1:", n1)
 
