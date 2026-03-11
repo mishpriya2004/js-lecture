@@ -62,3 +62,14 @@ TASK - 2
 TASK - 3
 switch case task
 */
+
+/*
+if (){}
+if (){}
+if (){}
+
+if(){}
+else if(){}
+else if(){}
+else if(){}
+*/
