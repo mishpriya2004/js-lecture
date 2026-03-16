@@ -39,14 +39,17 @@ switch (x) {
 
 let no = 50;
 
-switch (no) {
-  case no < 30:
+switch (true) {
+  case no < 30: // t/f
     console.log("Color is red");
     break;
-  case no < 60:
+  case no < 60: // t/f
     console.log("Color is Yellow");
     break;
-  case no < 100:
+  case no < 100: // t/f
+    console.log("Color is green");
+    break;
+  case no < 0: // t/f
     console.log("Color is green");
     break;
   default:

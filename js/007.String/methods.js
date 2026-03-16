@@ -86,9 +86,39 @@ console.log("🚀 ~ check:", check)
 */
 
 /*
-•	slice() – extracts part of a string
-•	substring() – extracts part of a string
-•	replace() – replaces text
-•	replaceAll() – replaces text
-•	split() – converts string to array
+Method : slice()
+Use : extracts part of a string
+
+let str = "Urvish Patel"
+
+// let subString = str.slice(0,5)
+// let subString = str.slice(1)
+console.log("🚀 ~ subString:", subString)
+
 */
+
+
+/*
+Method : replace()
+Use : replaces text
+
+let str = "Urvish petel is a teacher. urvish petel is a developer"
+
+let newString = str.replace("petel","Patel")
+console.log("🚀 ~ newString:", newString)
+
+let new2String = str.replaceAll("petel","Patel")
+console.log("🚀 ~ new2String:", new2String)
+
+*/
+
+
+/*
+Method : split()
+Use : converts string to array
+*/
+
+let str = 'Hello world'
+
+let splitedArray = str.split("llo")
+console.log("🚀 ~ splitedArray:", splitedArray)

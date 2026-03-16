@@ -10,8 +10,16 @@
 // console.log("----no--->",5)
 /*
 
-FOR -> when we know start and end point
-WHILE -> when we know starting and end condition
-DO WHILE -> when we want to run code once even condition false 
+FOR 
+-> when we know start and end point
+-> Entry control loop
+
+WHILE 
+-> when we know starting and end condition
+-> Entry control loop
+
+DO WHILE 
+-> when we want to run code once even condition false 
+-> Exit control loop
 
 */
