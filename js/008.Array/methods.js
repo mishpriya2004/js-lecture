@@ -124,7 +124,6 @@ console.log("🚀 ~ student:", student)
 Method : join() 
 Use : converts array to string
 Behaviour : return a string value
-*/
 
 let student = ["Manoj", "Shuresh", "jay", "Komal", 900];
 
@@ -132,3 +131,62 @@ let string1 = student.toString();
 console.log("🚀 ~ string1:", string1);
 let string2 = student.join();
 console.log("🚀 ~ string2:", string2);
+
+*/
+
+/*
+Method : slice()
+Use : extracts part of an array (does not change original)
+Behaviour : return a sub array
+
+let student = ["Manoj", "Shuresh", "jay", "Komal"];
+
+let ans = student.slice(0, 2);
+console.log("🚀 ~ ans:", ans);
+*/
+
+/*
+Method : splice()
+Use : adds/removes elements (changes original)
+Behaviour : change the existing array
+*/
+
+let student = ["Manoj", "Shuresh", "jay", "Komal"];
+console.log("🚀 ~ student:---before---->", student);
+
+// remove
+// student.splice(1, 2);
+
+// add
+// student.splice(1, 0, "Patel","Ganesh");
+
+// update
+student.splice(1,1,"SHURESH","TEJASH");
+console.log("🚀 ~ student:---after---->", student);
+
+/*
+Method : concat()
+Use : joins two or more arrays
+*/
+
+/*
+=> starting index and ending index
+start index => 1
+end index => 10
+1,10 => 1,2,3,4,5,6,7,8,9
+
+start index => 2
+end index => 10
+2,10 => 2,3,4,5,6,7,8,9
+
+=> starting index and count
+start index => 1
+count => 10
+1,10 => 1,2,3,4,5,6,7,8,9,10
+
+
+start index => 2
+count => 10
+2,10 => 2,3,4,5,6,7,8,9,10,11
+
+*/

@@ -11,7 +11,7 @@ console.log("----length---->",str.length)
 
 
 /*
-Method : toUpperCase()
+Method : toUpperCase()   
 Use : converts string to uppercase
 
 
@@ -122,3 +122,36 @@ let str = 'Hello world'
 
 let splitedArray = str.split("llo")
 console.log("🚀 ~ splitedArray:", splitedArray)
+
+
+
+/*
+let x = "     test    "
+let ans = 
+let finalAns = 
+for -> ans "test    "
+for <- finalAns "test"
+
+0,1,1,2,3,5
+
+x = 0
+y = 1
+total
+
+x = 1
+y = 1
+
+x = 1
+y = 2
+
+x = 2
+y = 3
+
+
+x + y => 1, x = y : 1, y =  
+x + y => 1
+
+
+
+*/
+
