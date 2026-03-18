@@ -126,6 +126,17 @@ console.log("🚀 ~ splitedArray:", splitedArray)
 
 
 /*
+
+Concat
+*/
+
+let str1 ='Hello'
+let str2 ='World'
+
+let concatedString = str1.concat(str2)
+console.log("🚀 ~ concatedString:", concatedString)
+
+/*
 let x = "     test    "
 let ans = 
 let finalAns = 

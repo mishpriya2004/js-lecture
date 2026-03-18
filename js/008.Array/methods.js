@@ -149,7 +149,7 @@ console.log("🚀 ~ ans:", ans);
 Method : splice()
 Use : adds/removes elements (changes original)
 Behaviour : change the existing array
-*/
+
 
 let student = ["Manoj", "Shuresh", "jay", "Komal"];
 console.log("🚀 ~ student:---before---->", student);
@@ -161,12 +161,73 @@ console.log("🚀 ~ student:---before---->", student);
 // student.splice(1, 0, "Patel","Ganesh");
 
 // update
-student.splice(1,1,"SHURESH","TEJASH");
+student.splice(1, 1, "SHURESH", "TEJASH");
 console.log("🚀 ~ student:---after---->", student);
+*/
 
 /*
 Method : concat()
 Use : joins two or more arrays
+Behaviour :  return combined array
+
+
+let a1 = [1, 2, 3];
+let a2 = [10, 20, 30];
+let a3 = [100, 200, 300];
+
+let concatedArray = a1.concat(a2,a3)
+console.log("🚀 ~ concatedArray:", concatedArray)
+*/
+
+/*
+Method : find()  
+User : returns first matching element
+Behaviour :  return single element
+
+
+let arr = [10, 20, 40, 60, 80, 20, 40, 80];
+
+// arr.find((e,i)=>{})
+
+let matchingElement = arr.find((element, index) => {
+  console.log("Index : ", index, "Element :", element);
+//   return element > 100
+  return index === 4
+});
+console.log("🚀 ~ matchingElement:", matchingElement)
+*/
+
+/*
+Method : findIndex()  
+User : returns index of matching element
+*/
+
+let student = ["Manoj", "Shuresh", "jay", "Komal", "jay"];
+
+let matchingElementIndex = student.findIndex((element, index) => {
+  console.log("Index : ", index, "Element :", element);
+  return element === "jay";
+});
+console.log("🚀 ~ matchingElementIndex:", matchingElementIndex);
+
+/*
+Method : some()  
+User : checks if any element matches
+*/
+
+/*
+Method : map()  
+User : transforms each element
+*/
+
+/*
+Method : filter()  
+User : filters elements based on condition
+*/
+
+/*
+Method : reduce()  
+User : reduces array to single value
 */
 
 /*
