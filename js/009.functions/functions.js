@@ -1,3 +1,8 @@
+/*
+Function - Reusable block of code, which perform a specific task.
+
+*/
+
 // console.log("My name is Urvish")
 // console.log("My age is 26")
 // console.log("City :surat")
@@ -24,6 +29,7 @@ printUserDetails()
 printUserDetails()
 */
 
+/*
 function printDetails(name, age) {
   console.log(`My name is ${name}`);
   console.log(`My age is ${age}`);
@@ -46,3 +52,43 @@ function sum(a, b) {
 sum(100, 50);
 sum(55,85);
 sum(8,9);
+*/
+
+/*
+function getName() {
+  console.log("-----before----");
+  return "Urvish Patel";
+  console.log("-----after----");
+
+  return "Test user";
+}
+
+function printName(name) {
+  console.log("Name is ", name);
+}
+
+let name = getName();
+console.log("🚀 ~ name:", name);
+printName(name);
+*/
+
+/*
+const printData = (no)=>{
+  console.log("Hello world",no)
+}
+
+printData(100)
+printData()
+printData()
+printData()
+
+*/
+fun1()
+
+const fun1 = () => {
+  console.log("----fun1---->");
+};
+// fun2()
+function fun2() {
+  console.log("----fun2---->");
+}
