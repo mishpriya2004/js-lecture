@@ -83,6 +83,8 @@ printData()
 printData()
 
 */
+
+/*
 fun1()
 
 const fun1 = () => {
@@ -91,4 +93,32 @@ const fun1 = () => {
 // fun2()
 function fun2() {
   console.log("----fun2---->");
+}
+*/
+
+// const fun11 = () => "hello return";
+
+// function fun2(params) {
+
+// }
+
+// let x = fun11()
+// console.log("🚀 ~ x:", x)
+
+/*
+{
+  var x = "hello world";
+}
+console.log("🚀 ~ x:", x)
+*/
+
+{
+  {
+    let x = "hello world";
+    console.log("🚀 ~ x:", x);
+  }
+
+  {
+    console.log("🚀 ~ x:===>", x);
+  }
 }

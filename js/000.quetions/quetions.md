@@ -29,6 +29,7 @@
 - what is the difference between "null" and "undefined" Data type ?
 - What is call by refrence ?
 - What is call by value ?
+- What is Hoisting ?
 
 # Conitional Statement
 
@@ -52,3 +53,18 @@
 - if I did not get any matching string in find Index what it will return ?
 - if I want to check given sub string is avilable in string or not and i want ans in boolen value so what should I do ?
 
+
+# Array - Method
+
+- Difference between findIndex and indexOf.
+- 
+
+
+
+
+# Function - Method
+- What is function ?
+- Why we need function ?
+- Does it is compulsory to return value in function ?
+- how much parameter we can pass in function ?
+- Difference between fatArrow functionand normal function ?

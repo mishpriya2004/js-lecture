@@ -202,13 +202,44 @@ Method : findIndex()
 User : returns index of matching element
 */
 
-let student = ["Manoj", "Shuresh", "jay", "Komal", "jay"];
+// let student = ["Manoj", "Shuresh", "jay", "Komal", "jay"];
+// let matchingElementIndex = student.findIndex((element, index) => {
+//   console.log("Index : ", index, "Element :", element);
+//   return element === "jay";
+// });
+// console.log("🚀 ~ matchingElementIndex:", matchingElementIndex);
 
-let matchingElementIndex = student.findIndex((element, index) => {
-  console.log("Index : ", index, "Element :", element);
-  return element === "jay";
+const studentData = [
+  {
+    name: "Raj",
+    age: 25,
+    city: "Vadodara",
+  },
+  {
+    name: "Jay",
+    age: 25,
+    city: "Navsari",
+  },
+  {
+    name: "Suresh",
+    age: 25,
+    city: "Surat",
+  },
+  {
+    name: "Meet",
+    age: 25,
+    city: "Anand",
+  },
+];
+
+// let matchIndex = studentData.indexOf('Suresh');
+// console.log("🚀 ~ matchIndex:", matchIndex)
+
+let matchIndex = studentData.findIndex((e, i) => {
+  console.log("🚀 ~ e:", e.name);
+  return e.name === "Meet";
 });
-console.log("🚀 ~ matchingElementIndex:", matchingElementIndex);
+console.log("🚀 ~ matchIndex:", matchIndex);
 
 /*
 Method : some()  
