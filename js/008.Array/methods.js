@@ -10,6 +10,8 @@ console.log("🚀 ~ arr:---After--->", arr)
 
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Methods : pop()
 Use: remove element from end
@@ -21,6 +23,8 @@ arr.pop()
 console.log("🚀 ~ arr:---After--->", arr)
 
 */
+
+//-----------------------------------------------------------------------------------
 
 /*
 Methods : unshift()
@@ -35,6 +39,8 @@ console.log("🚀 ~ arr:---After--->", arr)
 
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Methods : shift()
 Use: remove element from start
@@ -46,6 +52,8 @@ arr.shift()
 console.log("🚀 ~ arr:---After--->", arr)
 
 */
+
+//-----------------------------------------------------------------------------------
 
 /*
 Method : includes() 
@@ -66,6 +74,8 @@ if (ans) { // false, "", 0, undefined, null
 
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Method : indexOf() 
 Use : finds position of value, start from begining
@@ -80,6 +90,8 @@ let index = student.indexOf("Manoj")
 console.log("🚀 ~ index:", index)
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Method : lastIndexOf() 
 Use : finds position of value, start from end
@@ -93,6 +105,8 @@ let index = student.lastIndexOf("Manojj")
 console.log("🚀 ~ index:", index)
 
 */
+
+//-----------------------------------------------------------------------------------
 
 /*
 Method : sort() 
@@ -109,6 +123,8 @@ console.log("🚀 ~ arr:---After--->", arr)
 
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Method : reverse() 
 Use : reverses array
@@ -119,6 +135,8 @@ let student = ["Manoj", "Shuresh", "jay", "Komal"];
 student.reverse()
 console.log("🚀 ~ student:", student)
 */
+
+//-----------------------------------------------------------------------------------
 
 /*
 Method : join() 
@@ -134,6 +152,8 @@ console.log("🚀 ~ string2:", string2);
 
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Method : slice()
 Use : extracts part of an array (does not change original)
@@ -144,6 +164,8 @@ let student = ["Manoj", "Shuresh", "jay", "Komal"];
 let ans = student.slice(0, 2);
 console.log("🚀 ~ ans:", ans);
 */
+
+//-----------------------------------------------------------------------------------
 
 /*
 Method : splice()
@@ -165,6 +187,8 @@ student.splice(1, 1, "SHURESH", "TEJASH");
 console.log("🚀 ~ student:---after---->", student);
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Method : concat()
 Use : joins two or more arrays
@@ -179,6 +203,8 @@ let concatedArray = a1.concat(a2,a3)
 console.log("🚀 ~ concatedArray:", concatedArray)
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Method : find()  
 User : returns first matching element
@@ -192,69 +218,90 @@ let arr = [10, 20, 40, 60, 80, 20, 40, 80];
 let matchingElement = arr.find((element, index) => {
   console.log("Index : ", index, "Element :", element);
 //   return element > 100
-  return index === 4
+return index === 4
 });
 console.log("🚀 ~ matchingElement:", matchingElement)
 */
 
+//-----------------------------------------------------------------------------------
+
 /*
 Method : findIndex()  
 User : returns index of matching element
-*/
+Behaviour :  return a Index of matching element
 
 // let student = ["Manoj", "Shuresh", "jay", "Komal", "jay"];
 // let matchingElementIndex = student.findIndex((element, index) => {
-//   console.log("Index : ", index, "Element :", element);
-//   return element === "jay";
-// });
-// console.log("🚀 ~ matchingElementIndex:", matchingElementIndex);
+  //   console.log("Index : ", index, "Element :", element);
+  //   return element === "jay";
+  // });
+  // console.log("🚀 ~ matchingElementIndex:", matchingElementIndex);
+  
+  
+  
+  
+  
+  // let matchIndex = studentData.indexOf('Suresh');
+  // console.log("🚀 ~ matchIndex:", matchIndex)
+  
+  
+  let matchIndex = studentData.findIndex((e, i) => {
+    console.log("🚀 ~ e:", e.name);
+    return e.name === "Meet";
+  });
+  console.log("🚀 ~ matchIndex:", matchIndex);
+  
+  */
 
-const studentData = [
-  {
-    name: "Raj",
-    age: 25,
-    city: "Vadodara",
-  },
-  {
-    name: "Jay",
-    age: 25,
-    city: "Navsari",
-  },
-  {
-    name: "Suresh",
-    age: 25,
-    city: "Surat",
-  },
-  {
-    name: "Meet",
-    age: 25,
-    city: "Anand",
-  },
-];
-
-// let matchIndex = studentData.indexOf('Suresh');
-// console.log("🚀 ~ matchIndex:", matchIndex)
-
-let matchIndex = studentData.findIndex((e, i) => {
-  console.log("🚀 ~ e:", e.name);
-  return e.name === "Meet";
-});
-console.log("🚀 ~ matchIndex:", matchIndex);
+//-----------------------------------------------------------------------------------
 
 /*
 Method : some()  
 User : checks if any element matches
+Behaviour :  return a boolean value
+
+let arr = [{ a: 20 }, { a: 40 }, { a: 10 }, { a: 55 }, { a: 5 }];
+
+// const available = arr.includes({ a: 20 })
+const available = arr.some((e, i) => {
+  console.log("🚀 ~ e:", e.a);
+  return e.a === 400;
+});
+console.log("🚀 ~ available:", available);
 */
+
+//-----------------------------------------------------------------------------------
 
 /*
 Method : map()  
 User : transforms each element
+Behaviour :  return a new array
+
+let student = ["Manoj", "Shuresh", "jay", "Komal", "jay"];
+let newArray = student.map((e) => {
+  console.log("🚀 ~ e:", e);
+  return e + " Patel";
+});
+console.log("🚀 ~ newArray:", newArray)
 */
+
+//-----------------------------------------------------------------------------------
 
 /*
 Method : filter()  
 User : filters elements based on condition
+Behaviour :  return a new array
 */
+let student = ["Manoj", "Shuresh", "jay", "Komal", "jay"];
+
+let filteredData = student.filter((e)=>{
+  console.log("🚀 ~ e:", e.length)
+  return e.length > 4
+})
+console.log("🚀 ~ filteredData:", filteredData)
+
+//-----------------------------------------------------------------------------------
+
 
 /*
 Method : reduce()  
