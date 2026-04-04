@@ -294,19 +294,34 @@ Behaviour :  return a new array
 */
 let student = ["Manoj", "Shuresh", "jay", "Komal", "jay"];
 
-let filteredData = student.filter((e)=>{
-  console.log("🚀 ~ e:", e.length)
-  return e.length > 4
-})
-console.log("🚀 ~ filteredData:", filteredData)
+let filteredData = student.filter((e) => {
+  // console.log("🚀 ~ e:", e.length);
+  return e.length > 4;
+});
+console.log("🚀 ~ filteredData:", filteredData);
 
 //-----------------------------------------------------------------------------------
-
 
 /*
 Method : reduce()  
 User : reduces array to single value
 */
+
+let nums = [10, 20, 30, 40, 50];
+
+let total = nums.reduce((LRV, e, i) => {
+  // console.log("🚀 ~ LRV,e:", LRV, e);
+  return e + LRV
+});
+// console.log("🚀 ~ total:", total)
+
+let names = ["Suresh", "Tej", "Manoj", "Roshan", "Ranjeet"]
+
+let combinedNameString = names.reduce((LRV,e)=>{
+  return LRV+e 
+})
+console.log("🚀 ~ combinedNameString:", combinedNameString)
+
 
 /*
 => starting index and ending index
