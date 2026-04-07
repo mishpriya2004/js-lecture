@@ -12,6 +12,8 @@
 
 - What is variable ? 
 - difference between let vs var vs const ?
+- what is hoisting ?
+- 
 
 
 # Operator
@@ -38,6 +40,7 @@
 
 # Loop
 
+
 - What is loop ? andy why we need it ? 
 - Type of loop ? and their usecase.
 - Difference between For and Wihle loop.
@@ -51,13 +54,14 @@
 - How can if I find index of any sub string ?
 - Difference between indexOf and lastIndexOf.
 - if I did not get any matching string in find Index what it will return ?
-- if I want to check given sub string is avilable in string or not and i want ans in boolen value so what should I do ?
+- if I want to check given sub string is avilable in string or not and i want ans in boolen value so 
+what should I do ?
 
 
 # Array - Method
 
 - Difference between findIndex and indexOf.
-- 
+- Difference between some and includes ?
 
 
 
@@ -68,3 +72,11 @@
 - Does it is compulsory to return value in function ?
 - how much parameter we can pass in function ?
 - Difference between fatArrow functionand normal function ?
+
+
+# spred and rest
+
+- what is spred operator ?
+- example use of spred operator ?
+- what is rest operator ?
+- example use of rest operator ?

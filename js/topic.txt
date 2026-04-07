@@ -1,0 +1,17 @@
+optional chaining
+ternary operator
+Nullish coalescing operator
+Object methods, "this"
+The modern mode, "use strict"
+Object.keys, values, entries
+math methods
+Date and time
+JSON methods, toJSON
+setTimeout and setInterval
+callbacks
+Promise
+Async/await
+Export and Import
+
+Recursion
+class
