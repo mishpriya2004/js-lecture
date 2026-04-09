@@ -1,9 +1,9 @@
 optional chaining
-ternary operator
-Nullish coalescing operator
 Object methods, "this"
 The modern mode, "use strict"
 Object.keys, values, entries
+
+Nullish coalescing operator
 math methods
 Date and time
 JSON methods, toJSON
