@@ -6,6 +6,8 @@
 redeclier = create 2 variable with same name
 reassign = we can change the value
 intial value required = intial value compulsory
+hoisting - we can use variable before intialization
+scope - Global/block
 
 */
 
@@ -15,6 +17,8 @@ intial value required = intial value compulsory
 redeclier : yes
 reassign : yes
 intial value required : no
+Support hoisting : yes
+scope - Global
 */
 
 // ---------- redeclier --------------
@@ -42,6 +46,8 @@ console.log("------a3------>", a3);
 redeclier : no
 reassign : yes
 intial value required : no
+Support hoisting : no
+scope - block
 */
 
 // ---------- redeclier --------------
@@ -68,6 +74,8 @@ console.log("------b3------>", b3);
 redeclier : no
 reassign : no
 intial value required : yes
+Support hoisting : no
+scope - block
 */
 
 // ---------- redeclier --------------
@@ -84,3 +92,8 @@ intial value required : yes
 
 
 // const c3 
+
+
+
+
+

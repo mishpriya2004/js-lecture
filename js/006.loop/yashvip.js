@@ -61,16 +61,23 @@
 
 // task-5 
 
-let str = '  yashvi patel     '
-let start = 0
-let end = str.length -1;
+// let str = '  yashvi patel     '
+// let start = 0
+// let end = str.length -1;
 
-for(i = 0; i<str.length; i++){
-    if(str == " "){
-        start = i;
-        break;
-    }
-}
+// for(i = 0; i<str.length; i++){
+//     if(str == " "){
+//         start = i;
+//         break;
+//     }
+// }
+
+
+
+
+let arr =[10,9,8,7,5,4,3,6];
+arr.sort()
+console.log(arr);
 
 
 

@@ -17,7 +17,8 @@ console.log("----z---->",z)
 let z =  x - y 
 z = 10 - 3
 z = 7
-we goto z value 7
+we goto z 
+0.value 7   
 */
 
 let d = 10%3 

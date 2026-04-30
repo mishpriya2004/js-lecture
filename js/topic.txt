@@ -6,18 +6,21 @@ The modern mode, "use strict"
 Object.keys, values, entries
 Nullish coalescing operator
 setTimeout and setInterval
+Date and time
+
 
 math methods
-
-
-Date and time
 JSON methods, toJSON
-
 callbacks
+
 Promise
 Async/await
+try catch
 
 Export and Import
 
 Recursion
 class
+currying
+HOF
+IIFE

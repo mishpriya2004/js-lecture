@@ -1,7 +1,6 @@
 // &&
-// || 
+// ||
 // !
-
 
 // age should above 10
 // age should below 18
@@ -26,7 +25,6 @@ T && T => T
 
 */
 
-
 // let age = 18
 
 // let ans = 10 === age || age < 18
@@ -41,14 +39,18 @@ F || F => F
 */
 // console.log("-----ans----->",ans)
 
+// false => 0,
 
-// false => 0, 
+// 
 
+let x = ""; // false, "", undefined, null, 0 // falsy value
 
-// !
+let ans = !x;
+console.log("🚀 ~ ans:", ans);
 
+let obj = { a: 20, b: 30 };
 
-let x = "" // false, "", undefined, null, 0 // falsy value
+// let a = obj.a
+// let b = obj.b
 
-let ans = !x
-console.log("🚀 ~ ans:", ans)
+let { a, b } = obj;
