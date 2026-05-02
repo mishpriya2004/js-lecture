@@ -1,0 +1,1 @@
+const DATA = require("./data.json")
