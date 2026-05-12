@@ -1,0 +1,3 @@
+12-05-26
+- show project folder
+- what is component ? (functional component only)
