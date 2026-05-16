@@ -1,15 +1,16 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
-import "./App.css";
+import { MyFirstComponent } from "./MyFirstComponent";
+import Test from "./MySecondComponent";
+
+const MySecondComponent = "hello"
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-     <h1>Custome rtag</h1>
+      <h1>Custome rtag</h1>
+      <MyFirstComponent></MyFirstComponent>
+      <MyFirstComponent />
+      <MySecondComponent/>
     </>
   );
 }
