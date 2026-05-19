@@ -1,16 +1,20 @@
-import { MyFirstComponent } from "./MyFirstComponent";
-import Test from "./MySecondComponent";
+import { MyFirstComponent } from "./1.component/MyFirstComponent";
+import Test from "./1.component/MySecondComponent";
+import { MapAndKey } from "./2.MapKey/MapAndKey";
 
-const MySecondComponent = "hello"
+const MySecondComponent = "hello";
 
 function App() {
-
   return (
     <>
-      <h1>Custome rtag</h1>
+      {/* ------------------------- COMPONENT ---------------------------------- */}
+      {/* <h1>Custome rtag</h1>
       <MyFirstComponent></MyFirstComponent>
       <MyFirstComponent />
-      <MySecondComponent/>
+      <MySecondComponent/> */}
+
+      {/* ------------------------- MAP AND KEY ---------------------------------- */}
+      <MapAndKey />
     </>
   );
 }
