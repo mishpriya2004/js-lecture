@@ -1,6 +1,10 @@
 import { MyFirstComponent } from "./1.component/MyFirstComponent";
 import Test from "./1.component/MySecondComponent";
 import { MapAndKey } from "./2.MapKey/MapAndKey";
+import ShadCnFile from "./3.style/ShadCnFile";
+import StyleFile from "./3.style/StyleFile";
+import StyleObject from "./3.style/StyleObject";
+import TailwindCss from "./3.style/TailwindCss";
 
 const MySecondComponent = "hello";
 
@@ -14,7 +18,13 @@ function App() {
       <MySecondComponent/> */}
 
       {/* ------------------------- MAP AND KEY ---------------------------------- */}
-      <MapAndKey />
+      {/* <MapAndKey /> */}
+
+      {/* ------------------------- STYLE ---------------------------------- */}
+      {/* <StyleObject/> */}
+      {/* <StyleFile/> */}
+      {/* <TailwindCss /> */}
+      <ShadCnFile/>
     </>
   );
 }
