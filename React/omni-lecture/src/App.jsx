@@ -5,6 +5,9 @@ import ShadCnFile from "./3.style/ShadCnFile";
 import StyleFile from "./3.style/StyleFile";
 import StyleObject from "./3.style/StyleObject";
 import TailwindCss from "./3.style/TailwindCss";
+import UseStateCom from "./4.useState/UseStateCom";
+import UseStateObj from "./4.useState/UseStateObj";
+import MainProps from "./5.Props/MainProps";
 
 const MySecondComponent = "hello";
 
@@ -24,7 +27,14 @@ function App() {
       {/* <StyleObject/> */}
       {/* <StyleFile/> */}
       {/* <TailwindCss /> */}
-      <ShadCnFile/>
+      {/* <ShadCnFile/> */}
+
+      {/* ------------------------- USE STATE ---------------------------------- */}
+      {/* <UseStateCom/> */}
+      {/* <UseStateObj/> */}
+
+      {/* ------------------------- PROPS ---------------------------------- */}
+      <MainProps/>
     </>
   );
 }
