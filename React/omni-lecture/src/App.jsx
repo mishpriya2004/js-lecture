@@ -6,37 +6,45 @@ import StyleFile from "./3.style/StyleFile";
 import StyleObject from "./3.style/StyleObject";
 import TailwindCss from "./3.style/TailwindCss";
 import UseStateCom from "./4.useState/UseStateCom";
+
 import UseStateObj from "./4.useState/UseStateObj";
 import MainProps from "./5.Props/MainProps";
 
-const MySecondComponent = "hello";
+
+function MySecondComponent() {
+  return <h1>Hello</h1>;
+}
 
 function App() {
   return (
     <>
       {/* ------------------------- COMPONENT ---------------------------------- */}
-      {/* <h1>Custome rtag</h1>
-      <MyFirstComponent></MyFirstComponent>
+
+      {/* <h1>Custom tag</h1>
       <MyFirstComponent />
-      <MySecondComponent/> */}
+      <MySecondComponent /> */}
 
       {/* ------------------------- MAP AND KEY ---------------------------------- */}
       {/* <MapAndKey /> */}
 
       {/* ------------------------- STYLE ---------------------------------- */}
-      {/* <StyleObject/> */}
-      {/* <StyleFile/> */}
+      {/* <StyleObject /> */}
+      {/* <StyleFile /> */}
       {/* <TailwindCss /> */}
-      {/* <ShadCnFile/> */}
+      {/* <ShadCnFile /> */}
 
       {/* ------------------------- USE STATE ---------------------------------- */}
-      {/* <UseStateCom/> */}
-      {/* <UseStateObj/> */}
+      {/* <UseStateCom /> */}
+      {/* <UseStateObj /> */}
 
       {/* ------------------------- PROPS ---------------------------------- */}
-      <MainProps/>
+      <MainProps />
+
+      <UseStateCom />
     </>
   );
 }
 
 export default App;
+
+
