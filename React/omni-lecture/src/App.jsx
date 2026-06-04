@@ -9,6 +9,8 @@ import UseStateCom from "./4.useState/UseStateCom";
 
 import UseStateObj from "./4.useState/UseStateObj";
 import MainProps from "./5.Props/MainProps";
+import EveryTimeAndOnStateChange from "./6.UseEffect/EveryTimeAndOnStateChange";
+import UseEffectProje from "./6.UseEffect/UseEffectProje";
 
 
 function MySecondComponent() {
@@ -38,9 +40,12 @@ function App() {
       {/* <UseStateObj /> */}
 
       {/* ------------------------- PROPS ---------------------------------- */}
-      <MainProps />
+      {/* <MainProps />
+      <UseStateCom /> */}
 
-      <UseStateCom />
+      {/* ------------------------- USE-EFFECT ---------------------------------- */}
+      {/* <EveryTimeAndOnStateChange/> */}
+      <UseEffectProje/>
     </>
   );
 }

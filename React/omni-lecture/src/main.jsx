@@ -10,3 +10,22 @@ createRoot(document.getElementById("root")).render(<App/>);
 // let root = createRoot(document.getElementById("root"));
 
 // root.render(<h1>test</h1>);
+
+/*
+useEffect
+api calling
+crud
+useReducer
+useContext
+useMemo
+useCallback
+basic router
+protected router
+dynamic router
+redux
+
+
+props drilling
+lifting state up
+
+*/
