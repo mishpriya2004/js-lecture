@@ -11,7 +11,8 @@ import UseStateObj from "./4.useState/UseStateObj";
 import MainProps from "./5.Props/MainProps";
 import EveryTimeAndOnStateChange from "./6.UseEffect/EveryTimeAndOnStateChange";
 import UseEffectProje from "./6.UseEffect/UseEffectProje";
-
+import ApiCall from "./7.API/ApiCall";
+import AxiosFetch from "./7.API/AxiosFetch";
 
 function MySecondComponent() {
   return <h1>Hello</h1>;
@@ -45,11 +46,13 @@ function App() {
 
       {/* ------------------------- USE-EFFECT ---------------------------------- */}
       {/* <EveryTimeAndOnStateChange/> */}
-      <UseEffectProje/>
+      {/* <UseEffectProje/> */}
+
+      {/* ------------------------- API  ---------------------------------- */}
+      {/* <ApiCall/> */}
+      <AxiosFetch />
     </>
   );
 }
 
 export default App;
-
-
