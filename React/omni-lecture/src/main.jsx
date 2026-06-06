@@ -15,10 +15,9 @@ createRoot(document.getElementById("root")).render(<App/>);
 useEffect
 api calling
 crud
-useReducer
+
 useContext
-useMemo
-useCallback
+
 basic router
 protected router
 dynamic router
@@ -28,4 +27,9 @@ redux
 props drilling
 lifting state up
 
+
+
+useReducer
+useMemo
+useCallback
 */

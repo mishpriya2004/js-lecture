@@ -5,15 +5,23 @@ import React, { useState } from "react";
 export default function SimpleCrud() {
   let [task, setTask] = useState("");
   let [taskList, setTaskList] = useState([]);
-  console.log("🚀 ~ SimpleCrud ~ taskList:", taskList)
+  console.log("🚀 ~ SimpleCrud ~ taskList:", taskList);
   const onChangeHandler = (e) => {
     setTask(e.target.value);
   };
 
   const addTaskHandler = () => {
     console.log("-=-=-=-=->");
-    setTaskList([...taskList, task])
-    setTask("")
+    setTaskList([...taskList, task]);
+    setTask("");
+  };
+
+  const deleteHandler = (index) => {
+    console.log("----delete handler ----", index);
+    let filterData = taskList.filter((e, i) => {
+      return i !== index;
+    });
+    setTaskList(filterData);
   };
 
   return (
@@ -39,9 +47,17 @@ export default function SimpleCrud() {
       <ul itemType="list">
         {taskList.map((e, i) => {
           return (
-            <li key={i}>
-              {i + 1}. {e}
-            </li>
+            <div className="flex">
+              <li key={i}>
+                {i + 1}. {e}
+              </li>
+              <Button
+                className="bg-red-500 cursor-pointer"
+                onClick={() => deleteHandler(i)}
+              >
+                Delete
+              </Button>
+            </div>
           );
         })}
       </ul>
@@ -49,6 +65,9 @@ export default function SimpleCrud() {
   );
 }
 
-let fun1 = () => {};
+// let fun1 = () => {};
 
-fun1();
+// fun1();
+
+
+// name , car, brand , vegetable
