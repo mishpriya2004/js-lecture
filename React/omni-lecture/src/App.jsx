@@ -13,6 +13,7 @@ import EveryTimeAndOnStateChange from "./6.UseEffect/EveryTimeAndOnStateChange";
 import UseEffectProje from "./6.UseEffect/UseEffectProje";
 import ApiCall from "./7.API/ApiCall";
 import AxiosFetch from "./7.API/AxiosFetch";
+import SimpleCrud from "./8.CRUD/SimpleCrud";
 
 function MySecondComponent() {
   return <h1>Hello</h1>;
@@ -50,7 +51,10 @@ function App() {
 
       {/* ------------------------- API  ---------------------------------- */}
       {/* <ApiCall/> */}
-      <AxiosFetch />
+      {/* <AxiosFetch /> */}
+
+      {/* ------------------------- CRUD  ---------------------------------- */}
+      <SimpleCrud/>
     </>
   );
 }
