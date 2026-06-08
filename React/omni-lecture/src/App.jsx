@@ -14,6 +14,7 @@ import UseEffectProje from "./6.UseEffect/UseEffectProje";
 import ApiCall from "./7.API/ApiCall";
 import AxiosFetch from "./7.API/AxiosFetch";
 import SimpleCrud from "./8.CRUD/SimpleCrud";
+import UpdateCrud from "./8.CRUD/UpdateCrud";
 
 function MySecondComponent() {
   return <h1>Hello</h1>;
@@ -54,7 +55,8 @@ function App() {
       {/* <AxiosFetch /> */}
 
       {/* ------------------------- CRUD  ---------------------------------- */}
-      <SimpleCrud/>
+      {/* <SimpleCrud/> */}
+      <UpdateCrud/>
     </>
   );
 }
