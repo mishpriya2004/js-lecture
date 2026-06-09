@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import React, { useState } from "react";
+import React, { use, useEffect, useState } from "react";
 
 export default function SimpleCrud() {
   let [task, setTask] = useState("");
@@ -13,8 +13,20 @@ export default function SimpleCrud() {
   const addTaskHandler = () => {
     console.log("-=-=-=-=->");
     setTaskList([...taskList, task]);
+    let convertedJsonData = JSON.stringify([...taskList, task]);
+    localStorage.setItem("task-data", convertedJsonData);
     setTask("");
   };
+
+  useEffect(() => {
+    console.log("--=-=-=>");
+
+    let jsonData = localStorage.getItem("task-data");
+    console.log("🚀 ~ SimpleCrud ~ jsonData:", jsonData);
+    let normalData = JSON.parse(jsonData);
+    console.log("🚀 ~ SimpleCrud ~ normalData:", normalData);
+    setTaskList(normalData);
+  }, []);
 
   const deleteHandler = (index) => {
     console.log("----delete handler ----", index);
@@ -68,6 +80,5 @@ export default function SimpleCrud() {
 // let fun1 = () => {};
 
 // fun1();
-
 
 // name , car, brand , vegetable

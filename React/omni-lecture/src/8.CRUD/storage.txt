@@ -1,0 +1,18 @@
+we have browser storages for store tempeorory or data with expiry
+
+1. Local storage 
+-> 5mb
+-> never clear autometically 
+-> need to clear
+-> store data in json/string 
+
+2. cookie storage  - react-cookie
+-> 4 kb
+-> we can expiry set time   
+-> store data in encripted form 
+
+3. session storage 
+-> 5 mb
+-> we can expiry set time   
+-> clear when we close tab
+-> store dta in json form
