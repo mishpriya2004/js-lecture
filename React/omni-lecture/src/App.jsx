@@ -16,6 +16,7 @@ import AxiosFetch from "./7.API/AxiosFetch";
 import LocalStorage from "./8.CRUD/LocalStorage";
 import SimpleCrud from "./8.CRUD/SimpleCrud";
 import UpdateCrud from "./8.CRUD/UpdateCrud";
+import ConditionalRender from "./9.ConditionalRender/ConditionalRender";
 
 function MySecondComponent() {
   return <h1>Hello</h1>;
@@ -56,9 +57,15 @@ function App() {
       {/* <AxiosFetch /> */}
 
       {/* ------------------------- CRUD  ---------------------------------- */}
-      <SimpleCrud/>
+      {/* <SimpleCrud/> */}
       {/* <UpdateCrud/> */}
+
+
+      {/* ------------------------- BROWSER STORAGE  ---------------------------------- */}
       {/* <LocalStorage/> */}
+
+      {/* ------------------------- CONDITIONAL RENDER  ---------------------------------- */}
+      <ConditionalRender/>
     </>
   );
 }

@@ -15,6 +15,10 @@ createRoot(document.getElementById("root")).render(<App/>);
 useEffect
 api calling
 crud
+conditional rendeering
+
+
+props drilling
 
 useContext
 
@@ -24,7 +28,6 @@ dynamic router
 redux
 
 
-props drilling
 lifting state up
 
 

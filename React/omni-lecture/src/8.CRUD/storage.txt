@@ -6,7 +6,7 @@ we have browser storages for store tempeorory or data with expiry
 -> need to clear
 -> store data in json/string 
 
-2. cookie storage  - react-cookie
+2. cookie storage  - react-cookie 
 -> 4 kb
 -> we can expiry set time   
 -> store data in encripted form 
