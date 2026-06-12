@@ -35,4 +35,22 @@ lifting state up
 useReducer
 useMemo
 useCallback
+
+cookie -> local storage (self learning need to explain)
+same value sow (total 3 value) alert (useEffect task)
+
+game ->  conditional renderiung
+step1 input 
+-> step1  ++ untill reach value game over 
+-> step2 two btn -> 1 reset 2 restart ->
+=> restart move to step1  
+-> reset pe move to step 2
+
+crud 5 time with local storage
+
+-> show color odd red and even yellow conditiional style
+
+
+
+
 */

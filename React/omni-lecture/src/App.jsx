@@ -1,5 +1,7 @@
 import { MyFirstComponent } from "./1.component/MyFirstComponent";
 import Test from "./1.component/MySecondComponent";
+import PropsDrilling from "./10.PropsDrilling/PropsDrilling";
+import ParentCom from "./11.LiftingStateUp/ParentCom";
 import { MapAndKey } from "./2.MapKey/MapAndKey";
 import ShadCnFile from "./3.style/ShadCnFile";
 import StyleFile from "./3.style/StyleFile";
@@ -65,7 +67,13 @@ function App() {
       {/* <LocalStorage/> */}
 
       {/* ------------------------- CONDITIONAL RENDER  ---------------------------------- */}
-      <ConditionalRender/>
+      {/* <ConditionalRender/> */}
+
+      {/* ------------------------- PROPS DRILLING  ---------------------------------- */}
+      {/* <PropsDrilling/> */}
+
+      {/* ------------------------- LIFTING STATE UP  ---------------------------------- */}
+      <ParentCom/>
     </>
   );
 }
