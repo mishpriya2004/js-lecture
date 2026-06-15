@@ -1,7 +1,9 @@
+import { BrowserRouter } from "react-router-dom";
 import { MyFirstComponent } from "./1.component/MyFirstComponent";
 import Test from "./1.component/MySecondComponent";
 import PropsDrilling from "./10.PropsDrilling/PropsDrilling";
 import ParentCom from "./11.LiftingStateUp/ParentCom";
+import MainComponent from "./12.Router/MainComponent";
 import { MapAndKey } from "./2.MapKey/MapAndKey";
 import ShadCnFile from "./3.style/ShadCnFile";
 import StyleFile from "./3.style/StyleFile";
@@ -73,7 +75,12 @@ function App() {
       {/* <PropsDrilling/> */}
 
       {/* ------------------------- LIFTING STATE UP  ---------------------------------- */}
-      <ParentCom/>
+      {/* <ParentCom/> */}
+
+      {/* ------------------------- ROUTER  ---------------------------------- */}
+      {/* <BrowserRouter> */}
+      <MainComponent/>
+      {/* </BrowserRouter> */}
     </>
   );
 }
