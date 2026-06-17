@@ -28,6 +28,9 @@ export default function Header() {
           <NavLink to={"/faq"}>
             <li>Faq</li>
           </NavLink>
+          {/* <NavLink to={"/user"}>
+            <li>User</li>
+          </NavLink> */}
         </ul>
       </div>
     </div>
