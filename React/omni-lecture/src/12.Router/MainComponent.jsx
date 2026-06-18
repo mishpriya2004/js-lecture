@@ -8,6 +8,8 @@ import PageNotFound404 from "./PageNotFound404";
 import Header from "./Header";
 import User from "./User";
 import WraperComponent from "./WraperComponent";
+import Profile from "./Profile";
+import ProtectedRoute from "./ProtectedRoute";
 
 export default function MainComponent() {
   return (
@@ -19,9 +21,12 @@ export default function MainComponent() {
           <Route path="" element={<WraperComponent><Home /></WraperComponent>} />
           <Route path="" element={<Home />} />
           <Route path="/about-us" element={<WraperComponent><AboutUs /></WraperComponent>} />
-          <Route path="/faq" element={<FAQ />} />
+          <Route path="/faq" element={<ProtectedRoute><FAQ/></ProtectedRoute>} />
           <Route path="/user/:userId" element={<User />} />
           <Route path="*" element={<PageNotFound404 />} />
+
+          {/* -----------------protected routes--------------------- */}
+          <Route path="/profile" element={<ProtectedRoute><Profile/></ProtectedRoute>}/>
         </Routes>
       </BrowserRouter>
     </div>
