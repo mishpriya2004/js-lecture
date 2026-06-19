@@ -10,10 +10,11 @@ import User from "./User";
 import WraperComponent from "./WraperComponent";
 import Profile from "./Profile";
 import ProtectedRoute from "./ProtectedRoute";
+import Login from "./Login";
 
 export default function MainComponent() {
   return (
-    <div className="main_com">
+    <div className="min-h-full h-full" >
       <BrowserRouter>
         <Header />
         <Routes>
@@ -23,6 +24,7 @@ export default function MainComponent() {
           <Route path="/about-us" element={<WraperComponent><AboutUs /></WraperComponent>} />
           <Route path="/faq" element={<ProtectedRoute><FAQ/></ProtectedRoute>} />
           <Route path="/user/:userId" element={<User />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<PageNotFound404 />} />
 
           {/* -----------------protected routes--------------------- */}

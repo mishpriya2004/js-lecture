@@ -53,4 +53,9 @@ crud 5 time with local storage
 
 
 
+checkbox
+select
+radio
+
+
 */

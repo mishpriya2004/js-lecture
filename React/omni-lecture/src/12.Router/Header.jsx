@@ -8,7 +8,8 @@ export default function Header() {
 
 
   const loginHandler =()=>{
-    localStorage.setItem("isLogin","true")
+    // localStorage.setItem("isLogin","true")
+    navigate("/login")
   }
   return (
     <div className="bg-black p-2">
