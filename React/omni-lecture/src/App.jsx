@@ -21,6 +21,8 @@ import LocalStorage from "./8.CRUD/LocalStorage";
 import SimpleCrud from "./8.CRUD/SimpleCrud";
 import UpdateCrud from "./8.CRUD/UpdateCrud";
 import ConditionalRender from "./9.ConditionalRender/ConditionalRender";
+import UseContextCom from "./13.UseContext/UseContextCom";
+import CheckBoxInput from "./8.CRUD/CheckBoxInput";
 
 function MySecondComponent() {
   return <h1>Hello</h1>;
@@ -63,6 +65,7 @@ function App() {
       {/* ------------------------- CRUD  ---------------------------------- */}
       {/* <SimpleCrud/> */}
       {/* <UpdateCrud/> */}
+      <CheckBoxInput/>
 
 
       {/* ------------------------- BROWSER STORAGE  ---------------------------------- */}
@@ -79,8 +82,11 @@ function App() {
 
       {/* ------------------------- ROUTER  ---------------------------------- */}
       {/* <BrowserRouter> */}
-      <MainComponent/>
+      {/* <MainComponent/> */}
       {/* </BrowserRouter> */}
+
+      {/* ------------------------- USE REDUCER  ---------------------------------- */}
+      {/* <UseContextCom/> */}
     </>
   );
 }
