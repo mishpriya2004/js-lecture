@@ -23,6 +23,7 @@ import UpdateCrud from "./8.CRUD/UpdateCrud";
 import ConditionalRender from "./9.ConditionalRender/ConditionalRender";
 import UseContextCom from "./13.UseContext/UseContextCom";
 import CheckBoxInput from "./8.CRUD/CheckBoxInput";
+import RadioValue from "./8.CRUD/RadioValue";
 
 function MySecondComponent() {
   return <h1>Hello</h1>;
@@ -65,7 +66,8 @@ function App() {
       {/* ------------------------- CRUD  ---------------------------------- */}
       {/* <SimpleCrud/> */}
       {/* <UpdateCrud/> */}
-      <CheckBoxInput/>
+      {/* <CheckBoxInput/> */}
+      <RadioValue/>
 
 
       {/* ------------------------- BROWSER STORAGE  ---------------------------------- */}
