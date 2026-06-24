@@ -24,6 +24,7 @@ import ConditionalRender from "./9.ConditionalRender/ConditionalRender";
 import UseContextCom from "./13.UseContext/UseContextCom";
 import CheckBoxInput from "./8.CRUD/CheckBoxInput";
 import RadioValue from "./8.CRUD/RadioValue";
+import ReduxCom from "./14.Redux/ReduxCom";
 
 function MySecondComponent() {
   return <h1>Hello</h1>;
@@ -67,7 +68,7 @@ function App() {
       {/* <SimpleCrud/> */}
       {/* <UpdateCrud/> */}
       {/* <CheckBoxInput/> */}
-      <RadioValue/>
+      {/* <RadioValue/> */}
 
 
       {/* ------------------------- BROWSER STORAGE  ---------------------------------- */}
@@ -89,6 +90,9 @@ function App() {
 
       {/* ------------------------- USE REDUCER  ---------------------------------- */}
       {/* <UseContextCom/> */}
+
+      {/* ------------------------- REDUX ---------------------------------- */}
+      <ReduxCom/>
     </>
   );
 }

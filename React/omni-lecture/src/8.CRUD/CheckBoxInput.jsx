@@ -21,7 +21,7 @@ export default function CheckBoxInput() {
     }
   return (
     <div className="p-[100px]">
-        <h1>Hobby</h1>
+      <h1>Hobby</h1>
       <input type="checkbox" checked={hobby.includes("dancing")} onChange={(e)=>onChangeHandler("dancing",e)} /> Dancing
       <br />
       <input type="checkbox"  checked={hobby.includes("swimming")} onChange={(e)=>onChangeHandler("swimming",e)} /> Swimming
