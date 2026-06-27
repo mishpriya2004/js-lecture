@@ -50,3 +50,21 @@ export function ProductCard() {
     </Card>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i want to use this side bar in my react project could you please give me simple example how can i implement it into my project, also explain each step in easy langauge. 
